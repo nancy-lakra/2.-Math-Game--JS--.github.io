@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Game</title>
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Sans">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="instruction">
+                <p id="welcome">Welcome!</p>
+                <p id="rules">Please go through the following instructions:<br/>
+                    <br/>1. You will have a simple multiplication problem on the screen
+                    <br/>2. And you will be given four options, out of which only one is correct
+                    <br/>3. Click on the correct answer to get 10 points
+                    <br/>4. However 5 points will be taken from you, whenever you click on a wrong answer
+            </div>
+            <div id="score">
+                Score: <span id="scorecount">0</span>
+            </div>
+            <div id="correct">
+                Correct!
+            </div>
+            <div id="wrong">
+                Try again
+            </div>
+            <div id="question">
+                
+            </div>
+            <div id="statement">
+                Click on the correct answer:
+            </div>
+            <div id="option">
+                <div id="option1" class="options"></div>
+                <div id="option2" class="options"></div>
+                <div id="option3" class="options"></div>
+                <div id="option4" class="options"></div>
+            </div>
+            <div id="startreset">
+                Start Game
+            </div>
+            <div id="timeremaining">
+                Time remaining: <span id="timecount">60</span> sec
+            </div>
+            <div id="gameover">
+                GAME OVER!<br/>YOUR SCORE IS 0
+            </div>
+            <div id="okay">
+                OK
+            </div>
+        </div>
+    <script src="javascript.js">
+    </script>
+    </body>
+</html>
